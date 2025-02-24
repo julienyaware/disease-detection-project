@@ -1,6 +1,6 @@
 from fastapi import FastAPI, File , UploadFile
 import uvicorn
-import numpy as npj
+import numpy as np
 
 app = FastAPI()
 @app.get("/ping")
